@@ -1,0 +1,74 @@
+body {
+    background-image: url(../CSS/Images/hogwarts_campus.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'harry_potter_font';
+    src: url(../CSS/Fonts/HarryPotter.ttf);
+}
+
+.container {
+    background-color: rgba(50, 62, 114, 0.5);
+    height: 100vh;
+    margin-top: 0; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    font-family: 'harry_potter_font', sans-serif;
+    color: rgb(218, 165, 32);
+    text-align: center;
+    padding: auto;
+}
+
+.form_data {
+    margin-top: 10vh;
+    font-family: 'harry_potter_font', sans-serif;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+.input-container:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    background-color: rgb(240, 205, 115);
+    border: 2px solid #000000;
+    position: relative;
+}
+
+input:focus {
+    outline: none;
+    border-color: white;
+}
+
+button {
+    height: 5vh;
+
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    padding: 10px 20px; 
+    margin-top: 5vh;
+    font-family: 'harry_potter_font';
+    background-color:  rgb(218, 165, 32);
+    border-radius: 10%;
+}
+
+button:hover {
+    cursor: pointer;
+    font-family: 'harry_potter_font';
+    background-color:  rgb(255, 183, 0);
+}
